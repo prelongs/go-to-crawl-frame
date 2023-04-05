@@ -11,7 +11,6 @@ require (
 	github.com/gogf/gf/v2 v2.3.3
 	github.com/gogf/swagger/v2 v2.0.0
 	github.com/jlaffaye/ftp v0.0.0-20220612151834-60a941566ce4
-	github.com/mssola/user_agent v0.5.3
 	github.com/pkg/sftp v1.13.5
 	github.com/tebeka/selenium v0.9.9
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
