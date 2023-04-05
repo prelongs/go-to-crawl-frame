@@ -1,0 +1,8 @@
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+# 补充变量后，cmd到go-to-crawl-frame目录下执行"gf gen dao"
+gfcli:
+  gen:
+    dao:
+      - link: "mysql:{username}:{pwd}@tcp({ip}:{port})/go-to-crawl"
+        path: db/mysql
