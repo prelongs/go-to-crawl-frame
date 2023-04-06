@@ -3,6 +3,8 @@ package ffmpegutil
 import (
 	"errors"
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/utils/fileutil"
+	"github.com/JervisPG/go-to-crawl-frame/utils/httputil"
 	"github.com/gogf/gf/v2/container/garray"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
@@ -11,8 +13,6 @@ import (
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
 	"github.com/gogf/gf/v2/util/grand"
-	"go-to-crawl-frame/utils/fileutil"
-	"go-to-crawl-frame/utils/httputil"
 	"io/fs"
 	"io/ioutil"
 	"net/http"

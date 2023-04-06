@@ -1,10 +1,10 @@
 package taskdto
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/utils/ffmpegutil"
+	"github.com/JervisPG/go-to-crawl-frame/utils/httputil"
 	"github.com/gogf/gf/v2/encoding/gjson"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/utils/ffmpegutil"
-	"go-to-crawl-frame/utils/httputil"
 )
 
 // 抓取直播接口集合

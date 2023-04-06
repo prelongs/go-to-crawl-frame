@@ -2,9 +2,9 @@ package sysservice
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/dao"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
 	"github.com/gogf/gf/v2/os/gctx"
-	"go-to-crawl-frame/db/mysql/dao"
-	"go-to-crawl-frame/db/mysql/model/entity"
 )
 
 const (

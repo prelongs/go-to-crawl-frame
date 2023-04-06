@@ -2,21 +2,21 @@ package crawltask
 
 import (
 	"context"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/dao"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/browsermobservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/servicedto"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/sysservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/vodservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/lockservice"
+	"github.com/JervisPG/go-to-crawl-frame/task/taskdto"
+	"github.com/JervisPG/go-to-crawl-frame/utils/browsermob"
+	"github.com/JervisPG/go-to-crawl-frame/utils/browserutil"
 	"github.com/gogf/gf/v2/encoding/gjson"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/tebeka/selenium"
-	"go-to-crawl-frame/db/mysql/dao"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/browsermobservice"
-	"go-to-crawl-frame/service/crawl/servicedto"
-	"go-to-crawl-frame/service/crawl/sysservice"
-	"go-to-crawl-frame/service/crawl/vodservice"
-	"go-to-crawl-frame/service/lockservice"
-	"go-to-crawl-frame/task/taskdto"
-	"go-to-crawl-frame/utils/browsermob"
-	"go-to-crawl-frame/utils/browserutil"
 )
 
 var CrawlVodTVTask = new(crawlVodTVTask)

@@ -1,9 +1,9 @@
 package httputil
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/entity/cmsdto"
+	"github.com/JervisPG/go-to-crawl-frame/utils/commonutil"
 	"github.com/gogf/gf/v2/net/ghttp"
-	"go-to-crawl-frame/entity/cmsdto"
-	"go-to-crawl-frame/utils/commonutil"
 )
 
 func ParseParam(req *ghttp.Request, dto interface{}) {

@@ -1,12 +1,12 @@
 package test
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/service/browsermobservice"
+	"github.com/JervisPG/go-to-crawl-frame/task/taskdto"
+	"github.com/JervisPG/go-to-crawl-frame/utils/browsermob"
+	"github.com/JervisPG/go-to-crawl-frame/utils/browserutil"
+	"github.com/JervisPG/go-to-crawl-frame/utils/processutil"
 	"github.com/gogf/gf/v2/os/gctx"
-	"go-to-crawl-frame/service/browsermobservice"
-	"go-to-crawl-frame/task/taskdto"
-	"go-to-crawl-frame/utils/browsermob"
-	"go-to-crawl-frame/utils/browserutil"
-	"go-to-crawl-frame/utils/processutil"
 	"testing"
 )
 

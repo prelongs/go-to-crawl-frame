@@ -1,10 +1,10 @@
 package service
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/entity/cmsdto"
+	"github.com/JervisPG/go-to-crawl-frame/service/common"
 	"github.com/gogf/gf/v2/frame/g"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/entity/cmsdto"
-	"go-to-crawl-frame/service/common"
 )
 
 type sNewCms struct {

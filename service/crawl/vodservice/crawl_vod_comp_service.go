@@ -1,12 +1,12 @@
 package vodservice
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/dao"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/configservice"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/util/gconv"
-	"go-to-crawl-frame/db/mysql/dao"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/configservice"
 )
 
 // 转换到爬取队列走标准化抓取

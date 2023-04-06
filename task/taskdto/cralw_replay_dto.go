@@ -1,7 +1,7 @@
 package taskdto
 
 import (
-	"go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
 )
 
 type CrawlReplayInterface interface {

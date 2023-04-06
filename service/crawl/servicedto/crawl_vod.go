@@ -1,6 +1,6 @@
 package servicedto
 
-import "go-to-crawl-frame/db/mysql/model/entity"
+import "github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
 
 type CrawlVodConfigDO struct {
 	*entity.CmsCrawlVodConfig

@@ -3,15 +3,15 @@ package crawltask
 import (
 	"context"
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/vodservice"
+	"github.com/JervisPG/go-to-crawl-frame/utils/browserutil"
+	"github.com/JervisPG/go-to-crawl-frame/utils/timeutil"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/text/gregex"
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/tebeka/selenium"
-	"go-to-crawl-frame/service/crawl/vodservice"
-	"go-to-crawl-frame/utils/browserutil"
-	"go-to-crawl-frame/utils/timeutil"
 	"time"
 )
 

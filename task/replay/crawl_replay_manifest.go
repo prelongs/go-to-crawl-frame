@@ -2,8 +2,8 @@ package replay
 
 import (
 	"context"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/crawl/replayservice"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/replayservice"
 )
 
 var Manifest = new(CrawlReplayManifest)

@@ -1,9 +1,9 @@
 package crawltask
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/servicedto"
 	"github.com/gogf/gf/v2/os/gctx"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/crawl/servicedto"
 	"testing"
 )
 

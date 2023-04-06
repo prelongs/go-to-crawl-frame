@@ -2,10 +2,10 @@ package fileutil
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/sysservice"
 	"github.com/gogf/gf/v2/os/gfile"
 	"github.com/gogf/gf/v2/text/gstr"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/crawl/sysservice"
 	"strings"
 	"testing"
 )

@@ -2,13 +2,13 @@ package sysservice
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/dao"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/configservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/vodservice"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/text/gregex"
 	"github.com/gogf/gf/v2/text/gstr"
-	"go-to-crawl-frame/db/mysql/dao"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/configservice"
-	"go-to-crawl-frame/service/crawl/vodservice"
 	netUrl "net/url"
 	"strings"
 )

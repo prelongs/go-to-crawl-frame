@@ -1,14 +1,14 @@
 package taskdto
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/configservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/servicedto"
+	"github.com/JervisPG/go-to-crawl-frame/utils/ffmpegutil"
+	"github.com/JervisPG/go-to-crawl-frame/utils/httputil"
 	"github.com/gogf/gf/v2/encoding/gjson"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/glog"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/configservice"
-	"go-to-crawl-frame/service/crawl/servicedto"
-	"go-to-crawl-frame/utils/ffmpegutil"
-	"go-to-crawl-frame/utils/httputil"
 )
 
 type BrowserContext struct {

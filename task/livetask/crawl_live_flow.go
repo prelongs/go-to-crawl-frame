@@ -3,12 +3,12 @@ package livetask
 import (
 	"context"
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/liveservice"
+	"github.com/JervisPG/go-to-crawl-frame/task/taskdto"
 	"github.com/gogf/gf/v2/os/gcron"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gtime"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/crawl/liveservice"
-	"go-to-crawl-frame/task/taskdto"
 )
 
 var CrawlTask = new(CrawlLive)

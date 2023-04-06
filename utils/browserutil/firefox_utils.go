@@ -1,9 +1,9 @@
 package browserutil
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/service/configservice"
+	"github.com/JervisPG/go-to-crawl-frame/task/taskdto"
 	"github.com/tebeka/selenium/firefox"
-	"go-to-crawl-frame/service/configservice"
-	"go-to-crawl-frame/task/taskdto"
 )
 
 func GetFirefoxCaps(browserCtx *taskdto.BrowserContext, crawlerProxy string) firefox.Capabilities {

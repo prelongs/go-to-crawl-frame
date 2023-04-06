@@ -2,12 +2,12 @@ package configservice
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/servicedto"
+	"github.com/JervisPG/go-to-crawl-frame/utils/constant"
 	"github.com/gogf/gf/v2/encoding/gjson"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/util/gconv"
-	"go-to-crawl-frame/service/crawl/servicedto"
-	"go-to-crawl-frame/utils/constant"
 )
 
 func GetCrawlHostIp() string {

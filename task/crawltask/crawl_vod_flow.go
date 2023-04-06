@@ -2,15 +2,15 @@ package crawltask
 
 import (
 	"context"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/browsermobservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/vodservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/lockservice"
+	"github.com/JervisPG/go-to-crawl-frame/task/taskdto"
+	"github.com/JervisPG/go-to-crawl-frame/utils/browsermob"
+	"github.com/JervisPG/go-to-crawl-frame/utils/browserutil"
 	"github.com/gogf/gf/v2/encoding/gjson"
 	"github.com/gogf/gf/v2/os/gctx"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/browsermobservice"
-	"go-to-crawl-frame/service/crawl/vodservice"
-	"go-to-crawl-frame/service/lockservice"
-	"go-to-crawl-frame/task/taskdto"
-	"go-to-crawl-frame/utils/browsermob"
-	"go-to-crawl-frame/utils/browserutil"
 )
 
 var CrawlTask = new(CrawlUrl)

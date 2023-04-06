@@ -2,14 +2,14 @@ package videoservice
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/configservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/servicedto"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/vodservice"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gfile"
 	"github.com/gogf/gf/v2/os/gtime"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/configservice"
-	"go-to-crawl-frame/service/crawl/servicedto"
-	"go-to-crawl-frame/service/crawl/vodservice"
 )
 
 var (

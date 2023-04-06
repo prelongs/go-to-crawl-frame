@@ -1,8 +1,8 @@
 package replay
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
 	"github.com/gogf/gf/v2/os/gctx"
-	"go-to-crawl-frame/db/mysql/model/entity"
 	"go-to-crawl-video/task/replaytask/programme"
 	"testing"
 )

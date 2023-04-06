@@ -1,9 +1,9 @@
 package servicedto
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/util/gconv"
-	"go-to-crawl-frame/db/mysql/model/entity"
 	"time"
 )
 

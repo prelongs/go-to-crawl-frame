@@ -5,7 +5,7 @@
 package dao
 
 import (
-	"go-to-crawl-frame/db/mysql/dao/internal"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/dao/internal"
 )
 
 // internalCmsCrawlReplayManifestTaskDao is internal type for wrapping internal DAO implements.

@@ -1,10 +1,10 @@
 package lockservice
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/service/configservice"
 	"github.com/gogf/gf/v2/os/gcache"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gtime"
-	"go-to-crawl-frame/service/configservice"
 	"time"
 )
 

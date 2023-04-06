@@ -2,12 +2,12 @@ package middleware
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/app/dao"
+	"github.com/JervisPG/go-to-crawl-frame/app/model"
+	"github.com/JervisPG/go-to-crawl-frame/app/utils"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/text/gstr"
-	"go-to-crawl-frame/app/dao"
-	"go-to-crawl-frame/app/model"
-	"go-to-crawl-frame/app/utils"
 )
 
 func OperLog(r *ghttp.Request) {

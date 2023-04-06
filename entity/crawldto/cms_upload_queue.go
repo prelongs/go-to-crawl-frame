@@ -1,6 +1,6 @@
 package crawldto
 
-import "go-to-crawl-frame/entity/cmsdto"
+import "github.com/JervisPG/go-to-crawl-frame/entity/cmsdto"
 
 type CmsUploadQueueCreate struct {
 	HostIp string `p:"hostIp" v:"required#主机IP为空"`

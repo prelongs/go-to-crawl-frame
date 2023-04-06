@@ -2,6 +2,11 @@ package browsermob
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/service/browsermobservice"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/sysservice"
+	"github.com/JervisPG/go-to-crawl-frame/utils/constant"
+	"github.com/JervisPG/go-to-crawl-frame/utils/fileutil"
+	"github.com/JervisPG/go-to-crawl-frame/utils/timeutil"
 	"github.com/gogf/gf/v2/encoding/gjson"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
@@ -10,11 +15,6 @@ import (
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
 	"github.com/tebeka/selenium"
-	"go-to-crawl-frame/service/browsermobservice"
-	"go-to-crawl-frame/service/crawl/sysservice"
-	"go-to-crawl-frame/utils/constant"
-	"go-to-crawl-frame/utils/fileutil"
-	"go-to-crawl-frame/utils/timeutil"
 	"io"
 )
 

@@ -1,8 +1,8 @@
 package servicedto
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/service/browsermobservice"
 	"github.com/tebeka/selenium"
-	"go-to-crawl-frame/service/browsermobservice"
 )
 
 type CrawlWebDriverDO struct {

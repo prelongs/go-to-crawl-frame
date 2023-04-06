@@ -2,8 +2,8 @@ package crawltask
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
 	"github.com/gogf/gf/v2/os/gctx"
-	"go-to-crawl-frame/db/mysql/model/entity"
 	"os/exec"
 
 	"testing"

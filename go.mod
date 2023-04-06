@@ -1,4 +1,4 @@
-module go-to-crawl-frame
+module github.com/JervisPG/go-to-crawl-frame
 
 go 1.18
 

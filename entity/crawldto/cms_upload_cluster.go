@@ -1,6 +1,6 @@
 package crawldto
 
-import "go-to-crawl-frame/entity/cmsdto"
+import "github.com/JervisPG/go-to-crawl-frame/entity/cmsdto"
 
 type CmsUploadClusterCreate struct {
 	CreateUser       int    `p:"createUser" v:"required#登录信息过期"`

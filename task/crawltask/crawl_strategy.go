@@ -1,11 +1,11 @@
 package crawltask
 
 import (
+	"github.com/JervisPG/go-to-crawl-frame/db/mysql/model/entity"
+	"github.com/JervisPG/go-to-crawl-frame/service/crawl/vodservice"
+	"github.com/JervisPG/go-to-crawl-frame/task/taskdto"
 	"github.com/gogf/gf/v2/text/gregex"
 	"github.com/gogf/gf/v2/text/gstr"
-	"go-to-crawl-frame/db/mysql/model/entity"
-	"go-to-crawl-frame/service/crawl/vodservice"
-	"go-to-crawl-frame/task/taskdto"
 	"go-to-crawl-video/task/vodtask/banan"
 	"go-to-crawl-video/task/vodtask/bilibili"
 	"go-to-crawl-video/task/vodtask/iqiyi"

@@ -2,12 +2,12 @@ package browserutil
 
 import (
 	"fmt"
+	"github.com/JervisPG/go-to-crawl-frame/service/configservice"
+	"github.com/JervisPG/go-to-crawl-frame/task/taskdto"
+	"github.com/JervisPG/go-to-crawl-frame/utils/constant"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/tebeka/selenium"
-	"go-to-crawl-frame/service/configservice"
-	"go-to-crawl-frame/task/taskdto"
-	"go-to-crawl-frame/utils/constant"
 )
 
 func NewRemote(capabilities selenium.Capabilities, port int, uriPrefix string) (selenium.WebDriver, error) {
